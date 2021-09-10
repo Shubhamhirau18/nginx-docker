@@ -10,7 +10,7 @@
 $ docker-compose up -d
 
 ## Access Url : It will be accessible on Your Host IP, Please replace with Your Host Machine IP
-- http://<Host-IP>/
+- http://Host-Machine-IP/
 
 ## Outcome : It Will Load Balance Between two Python Application Running on Port 8001,8002
 ## Load Blanacing Algorithm : Round Robin
