@@ -1,4 +1,4 @@
-FROM python:3-alpine
+FROM python:3.8.12-alpine3.14
 RUN adduser -D pipuser
 USER pipuser
 WORKDIR /home/pipuser
